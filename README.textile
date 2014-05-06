@@ -24,7 +24,7 @@ h2.  Installation
 <pre><code>  cd ~/.config/fish
   git init 
   git add .
-  git remote add github git://github.com/zmalltalker/fish-nuggets.git
+  git remote add github git://github.com/akasim/fish-nuggets.git
   git pull github master
 </code></pre>
 
