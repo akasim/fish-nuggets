@@ -1,3 +1,8 @@
+set -gx fourxe http://dev.zenoss.com/svnint/branches/zenoss-4.x
+set -gx fourx http://dev.zenoss.com/svnint/branches/core/zenoss-4.x
+set -gx ucsfourxe http://dev.zenoss.com/svnint/branches/zenoss_ucsx-4.2.6
+set -gx sandbox http://dev.zenoss.com/svnint/sandboxen/core/akasim
+set -gx sandboxe http://dev.zenoss.com/svnint/sandboxen/akasim
 if status --is-login
 	for p in /usr/bin /usr/local/bin /opt/local/bin /usr/local/mysql/bin /opt/local/lib/postgresql83/bin ~/bin ~/.config/fish/bin 
 		if test -d $p
