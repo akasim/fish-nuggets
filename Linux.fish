@@ -4,7 +4,7 @@
 set -gx ZENHOME /opt/zenoss
 set -gx PATH $ZENHOME/bin $PATH
 function fish_prompt -d "Write out the prompt"
-	printf '%s%s@LinuxBox%s' (set_color red) (whoami) (set_color normal) 
+	printf '%s%s@LINUXBOX%s' (set_color red) (whoami) (set_color normal) 
 
 	# Color writeable dirs green, read-only dirs red
 	if test -w "."
