@@ -1,3 +1,4 @@
+alias vi="vim"
 set -gx fourxe http://dev.zenoss.com/svnint/branches/zenoss-4.x
 set -gx fourx http://dev.zenoss.com/svnint/branches/core/zenoss-4.x
 set -gx ucsfourxe http://dev.zenoss.com/svnint/branches/zenoss_ucsx-4.2.6
